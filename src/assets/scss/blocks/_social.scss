@@ -1,0 +1,20 @@
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social__item {
+    margin: 0 .75rem;
+}
+
+.social__icon{
+    width: 2.4rem;
+    height: 2.4rem;
+    object-fit: contain;
+    transition: transform .5s;
+}
+
+.social__icon:hover {
+    transform: scale(1.2);
+}

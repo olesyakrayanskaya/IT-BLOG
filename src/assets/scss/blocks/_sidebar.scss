@@ -9,8 +9,12 @@
     box-shadow: 5px 0 15px rgba(#050505, .1);
 }
 
+.sidebar__content {
+    padding: 0 2rem;
+}
+
 .sidebar__header {
-    height: 180px;
+    height: 11.25rem;
     background-color: $primary-color;
 }
 
@@ -20,4 +24,11 @@
     height: 100%;
     object-fit: cover;
 }
+
+.sidebar__footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 

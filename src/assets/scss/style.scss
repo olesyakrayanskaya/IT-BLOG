@@ -14,6 +14,7 @@ html {
 body {
     background-color: $primary-color;
     font-size: 1.4rem;
+    line-height: 1.5;
     font-family: -apple-system,BlinkMacSystemFont,Segoe\ UI,Roboto,Helvetica\ Neue,Arial,Noto\ Sans,sans-serif;
     color: $text-color;
 }
@@ -23,3 +24,7 @@ body {
 @import "blocks/main";
 @import "blocks/header";
 @import "blocks/container";
+@import "blocks/profile";
+@import "blocks/social";
+@import "blocks/btn";
+

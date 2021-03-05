@@ -1,0 +1,24 @@
+.btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1em 1em;
+    border-radius: 3em;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.1;
+    color: $text-color;
+    background: $primary-color;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    margin: 0 1rem;
+    width: 50%;
+    text-align: center;
+    transition: background .5s linear;
+
+      &:hover {
+        background: lighten($primary-color, 20%);
+      }
+}
